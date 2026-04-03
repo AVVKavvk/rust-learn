@@ -1,0 +1,67 @@
+digraph {
+
+    graph [
+        label="crud",
+        labelloc=t,
+
+        pad=0.4,
+
+        // Consider rendering the graph using a different layout algorithm, such as:
+        // [dot, neato, twopi, circo, fdp, sfdp]
+        layout=neato,
+        overlap=false,
+        splines="line",
+        rankdir=LR,
+
+        fontname="Helvetica", 
+        fontsize="36",
+    ];
+
+    node [
+        fontname="monospace",
+        fontsize="10",
+        shape="record",
+        style="filled",
+    ];
+
+    edge [
+        fontname="monospace",
+        fontsize="10",
+    ];
+
+    "crud" [label="crate|crud", fillcolor="#5397c8"]; // "crate" node
+    "crud::config" [label="pub(crate) mod|config", fillcolor="#f8c04c"]; // "mod" node
+    "crud::errors" [label="pub(crate) mod|errors", fillcolor="#f8c04c"]; // "mod" node
+    "crud::handlers" [label="pub(crate) mod|handlers", fillcolor="#f8c04c"]; // "mod" node
+    "crud::handlers::user_handler" [label="pub mod|handlers::user_handler", fillcolor="#81c169"]; // "mod" node
+    "crud::logger" [label="pub(crate) mod|logger", fillcolor="#f8c04c"]; // "mod" node
+    "crud::middleware" [label="pub(crate) mod|middleware", fillcolor="#f8c04c"]; // "mod" node
+    "crud::middleware::request_id" [label="pub mod|middleware::request_id", fillcolor="#81c169"]; // "mod" node
+    "crud::middleware::state" [label="pub mod|middleware::state", fillcolor="#81c169"]; // "mod" node
+    "crud::models" [label="pub(crate) mod|models", fillcolor="#f8c04c"]; // "mod" node
+    "crud::models::user" [label="pub mod|models::user", fillcolor="#81c169"]; // "mod" node
+    "crud::repositories" [label="pub(crate) mod|repositories", fillcolor="#f8c04c"]; // "mod" node
+    "crud::repositories::user_repository" [label="pub mod|repositories::user_repository", fillcolor="#81c169"]; // "mod" node
+    "crud::routes" [label="pub(crate) mod|routes", fillcolor="#f8c04c"]; // "mod" node
+    "crud::routes::user_route" [label="pub mod|routes::user_route", fillcolor="#81c169"]; // "mod" node
+    "crud::services" [label="pub(crate) mod|services", fillcolor="#f8c04c"]; // "mod" node
+    "crud::services::user_service" [label="pub mod|services::user_service", fillcolor="#81c169"]; // "mod" node
+
+    "crud" -> "crud::config" [label="owns", color="#000000", style="solid"] [constraint=true]; // "owns" edge
+    "crud" -> "crud::errors" [label="owns", color="#000000", style="solid"] [constraint=true]; // "owns" edge
+    "crud" -> "crud::handlers" [label="owns", color="#000000", style="solid"] [constraint=true]; // "owns" edge
+    "crud" -> "crud::logger" [label="owns", color="#000000", style="solid"] [constraint=true]; // "owns" edge
+    "crud" -> "crud::middleware" [label="owns", color="#000000", style="solid"] [constraint=true]; // "owns" edge
+    "crud" -> "crud::models" [label="owns", color="#000000", style="solid"] [constraint=true]; // "owns" edge
+    "crud" -> "crud::repositories" [label="owns", color="#000000", style="solid"] [constraint=true]; // "owns" edge
+    "crud" -> "crud::routes" [label="owns", color="#000000", style="solid"] [constraint=true]; // "owns" edge
+    "crud" -> "crud::services" [label="owns", color="#000000", style="solid"] [constraint=true]; // "owns" edge
+    "crud::handlers" -> "crud::handlers::user_handler" [label="owns", color="#000000", style="solid"] [constraint=true]; // "owns" edge
+    "crud::middleware" -> "crud::middleware::request_id" [label="owns", color="#000000", style="solid"] [constraint=true]; // "owns" edge
+    "crud::middleware" -> "crud::middleware::state" [label="owns", color="#000000", style="solid"] [constraint=true]; // "owns" edge
+    "crud::models" -> "crud::models::user" [label="owns", color="#000000", style="solid"] [constraint=true]; // "owns" edge
+    "crud::repositories" -> "crud::repositories::user_repository" [label="owns", color="#000000", style="solid"] [constraint=true]; // "owns" edge
+    "crud::routes" -> "crud::routes::user_route" [label="owns", color="#000000", style="solid"] [constraint=true]; // "owns" edge
+    "crud::services" -> "crud::services::user_service" [label="owns", color="#000000", style="solid"] [constraint=true]; // "owns" edge
+
+}

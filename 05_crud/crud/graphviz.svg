@@ -1,0 +1,254 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="622pt" height="565pt" viewBox="0.00 0.00 622.00 565.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(28.8 536.18)">
+<polygon fill="white" stroke="none" points="-28.8,28.8 -28.8,-536.18 593.08,-536.18 593.08,28.8 -28.8,28.8"/>
+<text xml:space="preserve" text-anchor="middle" x="282.14" y="-470.98" font-family="Helvetica,sans-Serif" font-size="36.00">crud</text>
+<!-- crud -->
+<g id="node1" class="node">
+<title>crud</title>
+<polygon fill="#5397c8" stroke="black" points="258.62,-202.99 258.62,-242.99 312.62,-242.99 312.62,-202.99 258.62,-202.99"/>
+<text xml:space="preserve" text-anchor="middle" x="285.62" y="-229.99" font-family="monospace" font-size="10.00">crate</text>
+<polyline fill="none" stroke="black" points="258.62,-222.99 312.62,-222.99"/>
+<text xml:space="preserve" text-anchor="middle" x="285.62" y="-209.99" font-family="monospace" font-size="10.00">crud</text>
+</g>
+<!-- crud::config -->
+<g id="node2" class="node">
+<title>crud::config</title>
+<polygon fill="#f8c04c" stroke="black" points="448.95,-224 448.95,-264 526.31,-264 526.31,-224 448.95,-224"/>
+<text xml:space="preserve" text-anchor="middle" x="487.63" y="-251" font-family="monospace" font-size="10.00">pub(crate) mod</text>
+<polyline fill="none" stroke="black" points="448.95,-244 526.31,-244"/>
+<text xml:space="preserve" text-anchor="middle" x="487.63" y="-231" font-family="monospace" font-size="10.00">config</text>
+</g>
+<!-- crud&#45;&gt;crud::config -->
+<g id="edge1" class="edge">
+<title>crud-&gt;crud::config</title>
+<path fill="none" stroke="#000000" d="M312.86,-225.82C344.72,-229.13 398.1,-234.69 437.5,-238.78"/>
+<polygon fill="#000000" stroke="#000000" points="436.91,-242.24 447.22,-239.79 437.64,-235.28 436.91,-242.24"/>
+<text xml:space="preserve" text-anchor="middle" x="364.63" y="-235.3" font-family="monospace" font-size="10.00">owns</text>
+</g>
+<!-- crud::errors -->
+<g id="node3" class="node">
+<title>crud::errors</title>
+<polygon fill="#f8c04c" stroke="black" points="186.97,-28.49 186.97,-68.49 264.34,-68.49 264.34,-28.49 186.97,-28.49"/>
+<text xml:space="preserve" text-anchor="middle" x="225.65" y="-55.49" font-family="monospace" font-size="10.00">pub(crate) mod</text>
+<polyline fill="none" stroke="black" points="186.97,-48.49 264.34,-48.49"/>
+<text xml:space="preserve" text-anchor="middle" x="225.65" y="-35.49" font-family="monospace" font-size="10.00">errors</text>
+</g>
+<!-- crud&#45;&gt;crud::errors -->
+<g id="edge2" class="edge">
+<title>crud-&gt;crud::errors</title>
+<path fill="none" stroke="#000000" d="M278.62,-202.63C268.22,-172.37 248.61,-115.28 236.39,-79.71"/>
+<polygon fill="#000000" stroke="#000000" points="239.75,-78.74 233.19,-70.42 233.13,-81.01 239.75,-78.74"/>
+<text xml:space="preserve" text-anchor="middle" x="246.95" y="-144.17" font-family="monospace" font-size="10.00">owns</text>
+</g>
+<!-- crud::handlers -->
+<g id="node4" class="node">
+<title>crud::handlers</title>
+<polygon fill="#f8c04c" stroke="black" points="153.93,-344.09 153.93,-384.09 231.3,-384.09 231.3,-344.09 153.93,-344.09"/>
+<text xml:space="preserve" text-anchor="middle" x="192.62" y="-371.09" font-family="monospace" font-size="10.00">pub(crate) mod</text>
+<polyline fill="none" stroke="black" points="153.93,-364.09 231.3,-364.09"/>
+<text xml:space="preserve" text-anchor="middle" x="192.62" y="-351.09" font-family="monospace" font-size="10.00">handlers</text>
+</g>
+<!-- crud&#45;&gt;crud::handlers -->
+<g id="edge3" class="edge">
+<title>crud-&gt;crud::handlers</title>
+<path fill="none" stroke="#000000" d="M272.29,-243.2C256.55,-267.09 230.21,-307.05 212.16,-334.44"/>
+<polygon fill="#000000" stroke="#000000" points="209.33,-332.37 206.75,-342.65 215.18,-336.22 209.33,-332.37"/>
+<text xml:space="preserve" text-anchor="middle" x="231.67" y="-291.82" font-family="monospace" font-size="10.00">owns</text>
+</g>
+<!-- crud::logger -->
+<g id="node6" class="node">
+<title>crud::logger</title>
+<polygon fill="#f8c04c" stroke="black" points="103.21,-248.77 103.21,-288.77 180.57,-288.77 180.57,-248.77 103.21,-248.77"/>
+<text xml:space="preserve" text-anchor="middle" x="141.89" y="-275.77" font-family="monospace" font-size="10.00">pub(crate) mod</text>
+<polyline fill="none" stroke="black" points="103.21,-268.77 180.57,-268.77"/>
+<text xml:space="preserve" text-anchor="middle" x="141.89" y="-255.77" font-family="monospace" font-size="10.00">logger</text>
+</g>
+<!-- crud&#45;&gt;crud::logger -->
+<g id="edge4" class="edge">
+<title>crud-&gt;crud::logger</title>
+<path fill="none" stroke="#000000" d="M258.25,-231.7C239.42,-237.7 213.87,-245.84 191.51,-252.96"/>
+<polygon fill="#000000" stroke="#000000" points="190.74,-249.53 182.28,-255.9 192.87,-256.2 190.74,-249.53"/>
+<text xml:space="preserve" text-anchor="middle" x="214.32" y="-245.33" font-family="monospace" font-size="10.00">owns</text>
+</g>
+<!-- crud::middleware -->
+<g id="node7" class="node">
+<title>crud::middleware</title>
+<polygon fill="#f8c04c" stroke="black" points="129.06,-138.31 129.06,-178.31 206.43,-178.31 206.43,-138.31 129.06,-138.31"/>
+<text xml:space="preserve" text-anchor="middle" x="167.74" y="-165.31" font-family="monospace" font-size="10.00">pub(crate) mod</text>
+<polyline fill="none" stroke="black" points="129.06,-158.31 206.43,-158.31"/>
+<text xml:space="preserve" text-anchor="middle" x="167.74" y="-145.31" font-family="monospace" font-size="10.00">middleware</text>
+</g>
+<!-- crud&#45;&gt;crud::middleware -->
+<g id="edge5" class="edge">
+<title>crud-&gt;crud::middleware</title>
+<path fill="none" stroke="#000000" d="M258.28,-207.98C245.35,-200.89 229.54,-192.21 214.77,-184.11"/>
+<polygon fill="#000000" stroke="#000000" points="216.54,-181.09 206.08,-179.34 213.17,-187.22 216.54,-181.09"/>
+<text xml:space="preserve" text-anchor="middle" x="225.97" y="-199.05" font-family="monospace" font-size="10.00">owns</text>
+</g>
+<!-- crud::models -->
+<g id="node10" class="node">
+<title>crud::models</title>
+<polygon fill="#f8c04c" stroke="black" points="273.73,-105.57 273.73,-145.57 351.09,-145.57 351.09,-105.57 273.73,-105.57"/>
+<text xml:space="preserve" text-anchor="middle" x="312.41" y="-132.57" font-family="monospace" font-size="10.00">pub(crate) mod</text>
+<polyline fill="none" stroke="black" points="273.73,-125.57 351.09,-125.57"/>
+<text xml:space="preserve" text-anchor="middle" x="312.41" y="-112.57" font-family="monospace" font-size="10.00">models</text>
+</g>
+<!-- crud&#45;&gt;crud::models -->
+<g id="edge6" class="edge">
+<title>crud-&gt;crud::models</title>
+<path fill="none" stroke="#000000" d="M291.17,-202.8C294.81,-189.57 299.64,-172 303.78,-156.96"/>
+<polygon fill="#000000" stroke="#000000" points="307.1,-158.09 306.37,-147.52 300.35,-156.24 307.1,-158.09"/>
+<text xml:space="preserve" text-anchor="middle" x="286.92" y="-182.88" font-family="monospace" font-size="10.00">owns</text>
+</g>
+<!-- crud::repositories -->
+<g id="node12" class="node">
+<title>crud::repositories</title>
+<polygon fill="#f8c04c" stroke="black" points="346.33,-336.91 346.33,-376.91 423.69,-376.91 423.69,-336.91 346.33,-336.91"/>
+<text xml:space="preserve" text-anchor="middle" x="385.01" y="-363.91" font-family="monospace" font-size="10.00">pub(crate) mod</text>
+<polyline fill="none" stroke="black" points="346.33,-356.91 423.69,-356.91"/>
+<text xml:space="preserve" text-anchor="middle" x="385.01" y="-343.91" font-family="monospace" font-size="10.00">repositories</text>
+</g>
+<!-- crud&#45;&gt;crud::repositories -->
+<g id="edge7" class="edge">
+<title>crud-&gt;crud::repositories</title>
+<path fill="none" stroke="#000000" d="M300.71,-243.33C317.37,-265.78 344.34,-302.11 363.27,-327.62"/>
+<polygon fill="#000000" stroke="#000000" points="360.42,-329.66 369.19,-335.61 366.04,-325.49 360.42,-329.66"/>
+<text xml:space="preserve" text-anchor="middle" x="321.44" y="-276.47" font-family="monospace" font-size="10.00">owns</text>
+</g>
+<!-- crud::routes -->
+<g id="node14" class="node">
+<title>crud::routes</title>
+<polygon fill="#f8c04c" stroke="black" points="251.95,-292.38 251.95,-332.38 329.31,-332.38 329.31,-292.38 251.95,-292.38"/>
+<text xml:space="preserve" text-anchor="middle" x="290.63" y="-319.38" font-family="monospace" font-size="10.00">pub(crate) mod</text>
+<polyline fill="none" stroke="black" points="251.95,-312.38 329.31,-312.38"/>
+<text xml:space="preserve" text-anchor="middle" x="290.63" y="-299.38" font-family="monospace" font-size="10.00">routes</text>
+</g>
+<!-- crud&#45;&gt;crud::routes -->
+<g id="edge8" class="edge">
+<title>crud-&gt;crud::routes</title>
+<path fill="none" stroke="#000000" d="M286.76,-243.27C287.38,-254.36 288.16,-268.33 288.86,-280.81"/>
+<polygon fill="#000000" stroke="#000000" points="285.36,-280.88 289.41,-290.66 292.35,-280.48 285.36,-280.88"/>
+<text xml:space="preserve" text-anchor="middle" x="277.25" y="-265.04" font-family="monospace" font-size="10.00">owns</text>
+</g>
+<!-- crud::services -->
+<g id="node16" class="node">
+<title>crud::services</title>
+<polygon fill="#f8c04c" stroke="black" points="364.82,-139.04 364.82,-179.04 442.19,-179.04 442.19,-139.04 364.82,-139.04"/>
+<text xml:space="preserve" text-anchor="middle" x="403.5" y="-166.04" font-family="monospace" font-size="10.00">pub(crate) mod</text>
+<polyline fill="none" stroke="black" points="364.82,-159.04 442.19,-159.04"/>
+<text xml:space="preserve" text-anchor="middle" x="403.5" y="-146.04" font-family="monospace" font-size="10.00">services</text>
+</g>
+<!-- crud&#45;&gt;crud::services -->
+<g id="edge9" class="edge">
+<title>crud-&gt;crud::services</title>
+<path fill="none" stroke="#000000" d="M312.96,-208.15C325.78,-201.2 341.44,-192.71 356.1,-184.75"/>
+<polygon fill="#000000" stroke="#000000" points="357.59,-187.92 364.71,-180.08 354.25,-181.77 357.59,-187.92"/>
+<text xml:space="preserve" text-anchor="middle" x="323.97" y="-199.45" font-family="monospace" font-size="10.00">owns</text>
+</g>
+<!-- crud::handlers::user_handler -->
+<g id="node5" class="node">
+<title>crud::handlers::user_handler</title>
+<polygon fill="#81c169" stroke="black" points="231.53,-415.68 231.53,-455.68 338.6,-455.68 338.6,-415.68 231.53,-415.68"/>
+<text xml:space="preserve" text-anchor="middle" x="285.07" y="-442.68" font-family="monospace" font-size="10.00">pub mod</text>
+<polyline fill="none" stroke="black" points="231.53,-435.68 338.6,-435.68"/>
+<text xml:space="preserve" text-anchor="middle" x="285.07" y="-422.68" font-family="monospace" font-size="10.00">handlers::user_handler</text>
+</g>
+<!-- crud::handlers&#45;&gt;crud::handlers::user_handler -->
+<g id="edge10" class="edge">
+<title>crud::handlers-&gt;crud::handlers::user_handler</title>
+<path fill="none" stroke="#000000" d="M218.86,-384.41C228.52,-391.89 239.63,-400.49 249.94,-408.48"/>
+<polygon fill="#000000" stroke="#000000" points="247.51,-411.02 257.56,-414.38 251.79,-405.49 247.51,-411.02"/>
+<text xml:space="preserve" text-anchor="middle" x="223.85" y="-399.45" font-family="monospace" font-size="10.00">owns</text>
+</g>
+<!-- crud::middleware::request_id -->
+<g id="node8" class="node">
+<title>crud::middleware::request_id</title>
+<polygon fill="#81c169" stroke="black" points="23.22,-19.99 23.22,-59.99 133.64,-59.99 133.64,-19.99 23.22,-19.99"/>
+<text xml:space="preserve" text-anchor="middle" x="78.43" y="-46.99" font-family="monospace" font-size="10.00">pub mod</text>
+<polyline fill="none" stroke="black" points="23.22,-39.99 133.64,-39.99"/>
+<text xml:space="preserve" text-anchor="middle" x="78.43" y="-26.99" font-family="monospace" font-size="10.00">middleware::request_id</text>
+</g>
+<!-- crud::middleware&#45;&gt;crud::middleware::request_id -->
+<g id="edge11" class="edge">
+<title>crud::middleware-&gt;crud::middleware::request_id</title>
+<path fill="none" stroke="#000000" d="M152.39,-137.97C138.14,-119.09 116.76,-90.77 100.65,-69.42"/>
+<polygon fill="#000000" stroke="#000000" points="103.61,-67.54 94.79,-61.67 98.03,-71.76 103.61,-67.54"/>
+<text xml:space="preserve" text-anchor="middle" x="115.96" y="-106.69" font-family="monospace" font-size="10.00">owns</text>
+</g>
+<!-- crud::middleware::state -->
+<g id="node9" class="node">
+<title>crud::middleware::state</title>
+<polygon fill="#81c169" stroke="black" points="0,-183.44 0,-223.44 87.08,-223.44 87.08,-183.44 0,-183.44"/>
+<text xml:space="preserve" text-anchor="middle" x="43.54" y="-210.44" font-family="monospace" font-size="10.00">pub mod</text>
+<polyline fill="none" stroke="black" points="0,-203.44 87.08,-203.44"/>
+<text xml:space="preserve" text-anchor="middle" x="43.54" y="-190.44" font-family="monospace" font-size="10.00">middleware::state</text>
+</g>
+<!-- crud::middleware&#45;&gt;crud::middleware::state -->
+<g id="edge12" class="edge">
+<title>crud::middleware-&gt;crud::middleware::state</title>
+<path fill="none" stroke="#000000" d="M128.79,-172.46C119.07,-176 108.47,-179.85 98.16,-183.6"/>
+<polygon fill="#000000" stroke="#000000" points="97.18,-180.23 88.98,-186.93 99.57,-186.81 97.18,-180.23"/>
+<text xml:space="preserve" text-anchor="middle" x="102.92" y="-181.03" font-family="monospace" font-size="10.00">owns</text>
+</g>
+<!-- crud::models::user -->
+<g id="node11" class="node">
+<title>crud::models::user</title>
+<polygon fill="#81c169" stroke="black" points="329.72,-0.5 329.72,-40.5 396.82,-40.5 396.82,-0.5 329.72,-0.5"/>
+<text xml:space="preserve" text-anchor="middle" x="363.27" y="-27.5" font-family="monospace" font-size="10.00">pub mod</text>
+<polyline fill="none" stroke="black" points="329.72,-20.5 396.82,-20.5"/>
+<text xml:space="preserve" text-anchor="middle" x="363.27" y="-7.5" font-family="monospace" font-size="10.00">models::user</text>
+</g>
+<!-- crud::models&#45;&gt;crud::models::user -->
+<g id="edge13" class="edge">
+<title>crud::models-&gt;crud::models::user</title>
+<path fill="none" stroke="#000000" d="M322.22,-105.31C329.68,-89.9 340.06,-68.45 348.52,-50.97"/>
+<polygon fill="#000000" stroke="#000000" points="351.63,-52.58 352.83,-42.06 345.33,-49.53 351.63,-52.58"/>
+<text xml:space="preserve" text-anchor="middle" x="324.81" y="-81.14" font-family="monospace" font-size="10.00">owns</text>
+</g>
+<!-- crud::repositories::user_repository -->
+<g id="node13" class="node">
+<title>crud::repositories::user_repository</title>
+<polygon fill="#81c169" stroke="black" points="433.86,-379.33 433.86,-419.33 564.28,-419.33 564.28,-379.33 433.86,-379.33"/>
+<text xml:space="preserve" text-anchor="middle" x="499.07" y="-406.33" font-family="monospace" font-size="10.00">pub mod</text>
+<polyline fill="none" stroke="black" points="433.86,-399.33 564.28,-399.33"/>
+<text xml:space="preserve" text-anchor="middle" x="499.07" y="-386.33" font-family="monospace" font-size="10.00">repositories::user_repository</text>
+</g>
+<!-- crud::repositories&#45;&gt;crud::repositories::user_repository -->
+<g id="edge14" class="edge">
+<title>crud::repositories-&gt;crud::repositories::user_repository</title>
+<path fill="none" stroke="#000000" d="M423.94,-371.39C426.97,-372.52 430.07,-373.67 433.21,-374.84"/>
+<polygon fill="#000000" stroke="#000000" points="431.95,-378.1 442.54,-378.31 434.38,-371.54 431.95,-378.1"/>
+<text xml:space="preserve" text-anchor="middle" x="439.13" y="-364.11" font-family="monospace" font-size="10.00">owns</text>
+</g>
+<!-- crud::routes::user_route -->
+<g id="node15" class="node">
+<title>crud::routes::user_route</title>
+<polygon fill="#81c169" stroke="black" points="25.31,-379.33 25.31,-419.33 113.51,-419.33 113.51,-379.33 25.31,-379.33"/>
+<text xml:space="preserve" text-anchor="middle" x="69.41" y="-406.33" font-family="monospace" font-size="10.00">pub mod</text>
+<polyline fill="none" stroke="black" points="25.31,-399.33 113.51,-399.33"/>
+<text xml:space="preserve" text-anchor="middle" x="69.41" y="-386.33" font-family="monospace" font-size="10.00">routes::user_route</text>
+</g>
+<!-- crud::routes&#45;&gt;crud::routes::user_route -->
+<g id="edge15" class="edge">
+<title>crud::routes-&gt;crud::routes::user_route</title>
+<path fill="none" stroke="#000000" d="M251.59,-327.72C216.25,-341.61 163.84,-362.21 124.29,-377.76"/>
+<polygon fill="#000000" stroke="#000000" points="123.2,-374.43 115.17,-381.34 125.76,-380.94 123.2,-374.43"/>
+<text xml:space="preserve" text-anchor="middle" x="177.38" y="-343.74" font-family="monospace" font-size="10.00">owns</text>
+</g>
+<!-- crud::services::user_service -->
+<g id="node17" class="node">
+<title>crud::services::user_service</title>
+<polygon fill="#81c169" stroke="black" points="455.38,-47.38 455.38,-87.38 559.12,-87.38 559.12,-47.38 455.38,-47.38"/>
+<text xml:space="preserve" text-anchor="middle" x="507.25" y="-74.38" font-family="monospace" font-size="10.00">pub mod</text>
+<polyline fill="none" stroke="black" points="455.38,-67.38 559.12,-67.38"/>
+<text xml:space="preserve" text-anchor="middle" x="507.25" y="-54.38" font-family="monospace" font-size="10.00">services::user_service</text>
+</g>
+<!-- crud::services&#45;&gt;crud::services::user_service -->
+<g id="edge16" class="edge">
+<title>crud::services-&gt;crud::services::user_service</title>
+<path fill="none" stroke="#000000" d="M426.53,-138.7C441.03,-125.88 459.95,-109.16 475.83,-95.14"/>
+<polygon fill="#000000" stroke="#000000" points="477.98,-97.91 483.15,-88.67 473.34,-92.67 477.98,-97.91"/>
+<text xml:space="preserve" text-anchor="middle" x="440.62" y="-119.92" font-family="monospace" font-size="10.00">owns</text>
+</g>
+</g>
+</svg>
